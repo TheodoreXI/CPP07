@@ -1,14 +1,22 @@
 #ifndef ITER_HPP
 #define ITER_HPP
 
-typename <typename T>
+#include <cstddef>
+#include <iostream>
 
-void iter(T *a, size_t l, const T &f)
+
+template <typename T>
+void iter(T *a, const size_t l, void (*f)(const T&))//must be changed to u
 {
 	for (size_t i = 0; i < l; i++)
 	{
-		
+		f(a[i]);
 	}
+}
+template <typename T>
+void	f(const T &b)
+{
+	std::cout << b << "\n";
 }
 
 
