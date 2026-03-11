@@ -1,6 +1,5 @@
 #include "iter.hpp"
 
-
 void inc(int &a)
 {
 	a++;
@@ -15,8 +14,6 @@ void	ft_round(float &k)
 {
 	k = std::round(k);
 }
-
-
 
 int main()
 {

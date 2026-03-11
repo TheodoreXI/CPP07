@@ -7,7 +7,7 @@
 
 
 template <typename T, typename U>
-void iter(T *a, const size_t l, U f)//must be changed to u
+void iter(T *a, const size_t l, U f)
 {
 	for (size_t i = 0; i < l; i++)
 	{
