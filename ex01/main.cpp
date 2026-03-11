@@ -12,7 +12,7 @@ void	print(const std::string &s)
 
 void	ft_round(float &k)
 {
-	k = std::round(k);
+	k = round(k);
 }
 
 int main()

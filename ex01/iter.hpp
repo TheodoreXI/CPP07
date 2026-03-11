@@ -3,7 +3,7 @@
 
 #include <cstddef>
 #include <iostream>
-#include <cmath>
+#include <math.h>
 
 
 template <typename T, typename U>
